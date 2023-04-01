@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: linear-gradient(135deg, rgb(75, 137, 218)25%, rgb(150, 86, 196));
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: cover;
+        background-position: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+    .form-style {
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .box {
+        text-align: justify;
+        background-color: white;
+        position: relative;
+        height: 300px;
+        width: 600px;
+        margin: 190px;
+        overflow: hidden;
+
+        padding: 25px 30px;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .title {
+        color: black;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+
+    .button-decoration {
+
+        background: linear-gradient(135deg, rgb(75, 137, 218)25%, rgb(150, 86, 196));
+        background-size: cover;
+        border-radius: 5px;
+        text-align: center;
+        width: 540px;
+
+
+
+
+    }
+
+    span {
+
+        background-size: cover;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    div {
+        margin: 17px;
+    }
+
+    .line {
+        content: "";
+        height: 3px;
+        width: 30px;
+        background: linear-gradient(135deg, rgb(75, 137, 218)25%, rgb(150, 86, 196));
+        position: absolute;
+        left: 30px;
+
+        bottom: 255px;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <div>
+            <label class="title">Registration</label></br>
+        </div>
+        <div class="line"></div>
+        <form class="form-style">
+
+            <div>
+                <label>Full name</label>
+                <input type="text" placeholder="write your name" required>
+
+                <label>Username</label>
+                <input type="text" placeholder="write your username" required>
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="text" placeholder="write your Email" required>
+
+                <label>Phone Number</label>
+                <input type="text" placeholder="Enter your number" required>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" placeholder="write your password" required>
+
+                <label>Confirm password:</label>
+                <input type="text" placeholder="confirm your password" required>
+            </div>
+            <div>
+
+                <label>Gender:</label></br>
+                <div>
+                    <lablel for="h1">Male</lablel>
+                    <input id="h1" name="grp1" type="radio" value="1" required>
+                    <lablel for="h2">Female</lablel>
+                    <input id="h2" name="grp1" type="radio" value="2" required>
+                    <lablel for="h3">Prefer not to say</lablel>
+                    <input id="h3" type="radio" name="grp1" value="3" required>
+                </div>
+                <div class="button-decoration">
+                    <button class="button-decoration" type="button"><span>Register</span></button>
+
+                </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
